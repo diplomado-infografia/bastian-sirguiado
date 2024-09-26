@@ -7,3 +7,5 @@ Desde su construcción en 1930, el Teatro Municipal ha sido testigo de la histor
 ###### Jueves 10 de octubre, 2024
 
 - - - - 
+
+![sirguiado](https://github.com/user-attachments/assets/f94344c0-97f9-4577-8bfa-bdc2d3654c9d)
