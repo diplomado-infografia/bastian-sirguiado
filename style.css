@@ -101,7 +101,7 @@ h6 {
 }
 
 .wide-image {
-        width: 100vw; /* Ocupa todo el ancho de la ventana */
+        width: 80%; /* Ocupa todo el ancho de la ventana */
         margin-left: calc(-50vw + 50%); /* Centra la imagen */
         margin-right: calc(-50vw + 50%);
     }
