@@ -23,6 +23,13 @@ header{
     text-align: justify;
 }
 
+.image-description {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #212529;
+}
+
 h1, h2, h3, h4, h5 {
     color: #2c64ad;
     font-family: "DM Serif Display", serif;
