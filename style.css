@@ -42,62 +42,68 @@ h6 {
 }
 
 .full-width-svg {
-    width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
-    height: auto; /* Mantiene la proporción */
+    width: 100%;
+    height: auto; 
 }
 
 .narrow-content {
-    max-width: 720px; /* Ajusta el ancho según sea necesario */
-    margin: 0 auto; /* Centra el contenido */
-    padding-left: 15px; /* Añade un poco de espacio a los lados */
-    padding-right: 15px; /* Añade un poco de espacio a los lados */
+    max-width: 720px; 
+    margin: 0 auto; 
+    padding-left: 15px; 
+    padding-right: 15px; 
 }
 
 .narrow-content-svg {
-    width: 100%; /* Asegura que el contenedor se extienda al 100% del ancho */
-    overflow: hidden; /* Opcional: oculta cualquier desbordamiento */
+    width: 100%; 
+    overflow: hidden; 
 }
 
 .full-width-svg {
-    width: 100%; /* Hace que el SVG se extienda al 100% del contenedor */
-    height: auto; /* Mantiene la proporción del SVG */
-    display: block; /* Elimina espacio en blanco alrededor del objeto */
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 .icon-container {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Aumenta el espacio entre íconos */
+    gap: 30px; 
 }
 
 .icono {
-    width: 30px; /* Ajusta el tamaño a 20px o cualquier tamaño deseado */
-    height: 30px; /* Mantén la altura igual que el ancho para mantener la proporción */
-    transition: transform 0.3s ease; /* Solo para transformación */
+    width: 30px; 
+    height: 30px; 
+    transition: transform 0.3s ease; 
 }
 
 .icon-container a {
-    text-decoration: none; /* Elimina el subrayado del enlace */
+    text-decoration: none; 
 }
 
 .icono:hover {
-    transform: scale(1.3); /* Agranda el ícono al pasar el cursor */
+    transform: scale(1.3); 
 }
 
 .icono:active {
-    transform: scale(0.9); /* Reduce el tamaño al hacer clic */
+    transform: scale(0.9); 
 }
 
 .full-width-image {
-    width: calc(100% - 40px); /* Se extiende al ancho completo menos el espacio deseado */
-    margin: 50px auto 20px; /* Espacio superior, centrado, y espacio inferior */
-    max-width: none; /* Evita que el max-width del contenedor la limite */
-    display: block; /* Asegura que el elemento sea un bloque para centrarlo */
+    width: calc(100% - 40px); 
+    margin: 50px auto 20px; 
+    max-width: none; 
+    display: block; 
 }
 
 .plano-img {
     width: 100%;
     height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #2b64ad;
+    border-radius: 50%;
 }
 
 body {
