@@ -103,18 +103,12 @@ h6 {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: #2b64ad;
-    border-radius: 50%;
-    width: 1.5rem; /* Ajusta el tamaño de las flechas */
-    height: 1.5rem; /* Ajusta el tamaño de las flechas */
+    border-radius: 50%; 
 }
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
     background-color: #1f4f8f; 
-}
-
-body {
-    background-color: #f0ede8; 
 }
 
 /* para ajustar algo que queda lost in translation */
