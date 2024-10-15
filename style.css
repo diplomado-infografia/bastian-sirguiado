@@ -106,6 +106,11 @@ h6 {
     border-radius: 50%;
 }
 
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #1f4f8f;
+}
+
 body {
     background-color: #f0ede8; 
 }
