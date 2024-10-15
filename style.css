@@ -1,0 +1,104 @@
+/* importando las fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&display=swap");
+
+/* para ajustar el ancho de párrafos */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px; /* Asegúrate de que este valor sea el deseado */
+        margin: 0 auto; /* Centra el contenedor */
+    }
+}
+
+header{
+    background:transparent url('img/fachada.png') top center no-repeat;
+    background-size:100% auto;
+    padding-top:34vw;
+}
+
+:root {
+    --bs-font-sans-serif: "Barlow Semi Condensed", sans-serif;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #2c64ad;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+} 
+
+h6 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+}
+
+.full-width-svg {
+    width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la proporción */
+}
+
+.narrow-content {
+    max-width: 720px; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenido */
+    padding-left: 15px; /* Añade un poco de espacio a los lados */
+    padding-right: 15px; /* Añade un poco de espacio a los lados */
+}
+
+.narrow-content-svg {
+    width: 100%; /* Asegura que el contenedor se extienda al 100% del ancho */
+    overflow: hidden; /* Opcional: oculta cualquier desbordamiento */
+}
+
+.full-width-svg {
+    width: 100%; /* Hace que el SVG se extienda al 100% del contenedor */
+    height: auto; /* Mantiene la proporción del SVG */
+    display: block; /* Elimina espacio en blanco alrededor del objeto */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Aumenta el espacio entre íconos */
+}
+
+.icono {
+    width: 30px; /* Ajusta el tamaño a 20px o cualquier tamaño deseado */
+    height: 30px; /* Mantén la altura igual que el ancho para mantener la proporción */
+    transition: transform 0.3s ease; /* Solo para transformación */
+}
+
+.icon-container a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.icono:hover {
+    transform: scale(1.3); /* Agranda el ícono al pasar el cursor */
+}
+
+.icono:active {
+    transform: scale(0.9); /* Reduce el tamaño al hacer clic */
+}
+
+.full-width-image {
+    width: calc(100% - 40px); /* Se extiende al ancho completo menos el espacio deseado */
+    margin: 50px auto 20px; /* Espacio superior, centrado, y espacio inferior */
+    max-width: none; /* Evita que el max-width del contenedor la limite */
+    display: block; /* Asegura que el elemento sea un bloque para centrarlo */
+}
+
+.plano-img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #f0ede8; 
+}
+
+/* para ajustar algo que queda lost in translation */
+em, cite {
+    font-weight: 600;
+    font-style: normal;
+}
