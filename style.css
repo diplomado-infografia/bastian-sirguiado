@@ -111,6 +111,10 @@ h6 {
     background-color: #1f4f8f; 
 }
 
+body {
+    background-color: #efede7;
+}
+
 /* para ajustar algo que queda lost in translation */
 em, cite {
     font-weight: 600;
