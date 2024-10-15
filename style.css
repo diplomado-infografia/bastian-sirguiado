@@ -102,13 +102,13 @@ h6 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #2b64ad;
-    border-radius: 50%;
+    background-color: transparent; /* Hacer el fondo transparente */
+    filter: invert(54%) sepia(38%) saturate(385%) hue-rotate(185deg) brightness(95%) contrast(92%); 
 }
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
-    background-color: #1f4f8f;
+    filter: invert(54%) sepia(38%) saturate(385%) hue-rotate(185deg) brightness(75%) contrast(92%); 
 }
 
 body {
